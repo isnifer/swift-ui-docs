@@ -13,6 +13,10 @@
 		66E724CA24A8BFB50007E924 /* ButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E724B524A8BFB40007E924 /* ButtonScreen.swift */; };
 		66E724CB24A8BFB50007E924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E724B624A8BFB50007E924 /* Assets.xcassets */; };
 		66E724CC24A8BFB50007E924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E724B624A8BFB50007E924 /* Assets.xcassets */; };
+		66E724D724A8F4DD0007E924 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E724D624A8F4DD0007E924 /* TextScreen.swift */; };
+		66E724D824A8F4DD0007E924 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E724D624A8F4DD0007E924 /* TextScreen.swift */; };
+		66E724DB24A8F51C0007E924 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E724DA24A8F51C0007E924 /* Home.swift */; };
+		66E724DC24A8F51C0007E924 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E724DA24A8F51C0007E924 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,8 @@
 		66E724C524A8BFB50007E924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66E724C624A8BFB50007E924 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		66E724D524A8C0580007E924 /* swiftuidocs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftuidocs.entitlements; sourceTree = "<group>"; };
+		66E724D624A8F4DD0007E924 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		66E724DA24A8F51C0007E924 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,9 @@
 		66E724B324A8BFB40007E924 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				66E724D924A8F4F90007E924 /* components */,
 				66E724B424A8BFB40007E924 /* swiftuidocsApp.swift */,
-				66E724B524A8BFB40007E924 /* ButtonScreen.swift */,
+				66E724DA24A8F51C0007E924 /* Home.swift */,
 				66E724B624A8BFB50007E924 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -92,6 +99,15 @@
 				66E724C624A8BFB50007E924 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		66E724D924A8F4F90007E924 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				66E724B524A8BFB40007E924 /* ButtonScreen.swift */,
+				66E724D624A8F4DD0007E924 /* TextScreen.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E724C924A8BFB50007E924 /* ButtonScreen.swift in Sources */,
+				66E724D724A8F4DD0007E924 /* TextScreen.swift in Sources */,
+				66E724DB24A8F51C0007E924 /* Home.swift in Sources */,
 				66E724C724A8BFB50007E924 /* swiftuidocsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E724CA24A8BFB50007E924 /* ButtonScreen.swift in Sources */,
+				66E724D824A8F4DD0007E924 /* TextScreen.swift in Sources */,
+				66E724DC24A8F51C0007E924 /* Home.swift in Sources */,
 				66E724C824A8BFB50007E924 /* swiftuidocsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftuidocsApp: App {
   var body: some Scene {
     WindowGroup {
-      ButtonScreen()
+      Home()
     }
   }
 }

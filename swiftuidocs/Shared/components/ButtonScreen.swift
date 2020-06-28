@@ -11,7 +11,7 @@ struct ButtonScreen: View {
   var body: some View {
     Button(action: {}, label: {
       Text("Button")
-    })
+    }).padding()
   }
 }
 
