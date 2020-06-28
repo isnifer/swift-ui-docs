@@ -2,7 +2,7 @@ module.exports = {
   title: 'SwiftUI Docs',
   tagline: 'An attempt to create SwiftUI docs like React-Native',
   url: 'https://isnifer.github.io/swift-ui-docs/',
-  baseUrl: '/',
+  baseUrl: '/swift-ui-docs/',
   favicon: 'img/favicon.ico',
   organizationName: 'isnifer', // Usually your GitHub org/user name.
   projectName: 'swift-ui-docs', // Usually your repo name.
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/isnifer/swift-ui-docs/',
+          href: 'https://github.com/isnifer/swift-ui-docs',
           label: 'GitHub',
           position: 'right',
         },
