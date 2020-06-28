@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'SwiftUI Docs',
+  tagline: 'An attempt to create SwiftUI docs like React-Native',
+  url: 'https://isnifer.github.io/swift-ui-docs',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'isnifer', // Usually your GitHub org/user name.
+  projectName: 'swift-ui-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'SwiftUI Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SwiftUI Docs',
         src: 'img/logo.svg',
       },
       links: [
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/isnifer/swift-ui-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -69,13 +69,12 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'GitHub', href: 'https://github.com/isnifer/swift-ui-docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SwiftUI Docs, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -87,14 +86,12 @@ module.exports = {
           homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/isnifer/swift-ui-docs/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/isnifer/swift-ui-docs/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
